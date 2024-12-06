@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Liu+Jian+Mao+Cao&family=Lobster&family=Lugrasimo&family=Orbitron:wght@400..900&family=Rock+3D&family=Rubik+80s+Fade&family=Rubik+Glitch&family=Unica+One&display=swap');
+
+html {
+    scroll-behavior:smooth;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff;
+    color: #333333;
+    line-height: 1.3;
+    overflow-x: hidden;
+}
+
+h1{
+    font-size: calc(2.5rem + 3vh);
+    font-family: "Rubik Glitch";}
+h2{font-size: calc(2rem + 2vh);}
+h3{font-size: calc(1rem + 1vh);}
+
+h1,h2,h3{
+    padding: 1rem;
+}
+/* Section principale */
+.header {
+    position: absolute;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    color: white; /* Le texte devient blanc pour bien contraster avec le dégradé */
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 1)),url("../portfolio/img/fog_trashedsymetry.jpg") no-repeat right center/cover;
+    z-index: -1;
+}
+
+#projects_background{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit:contain;
+    filter: blur(100px) brightness(150%);
+    opacity: 50%;
+    z-index: -1;
+    margin: 10%;
+    border-radius: 25%;
+}
+
+.header h1 {
+    /* position: absolute; */
+    top:20px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    /* mix-blend-mode: exclusion; */
+}
+
+.header h2 {
+    /* position: absolute;
+    top: 90px; */
+    font-size: 1.5rem;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 600;
+    color: #494949;
+    margin-top: 10px;
+}
+
+main{
+    position: absolute;
+    top: 100%;
+    display: flex;
+    flex-flow: wrap row;
+}
+
+/* Navigation */
+.nav {
+    position: absolute;
+    font-family: 'Courier New', Courier, monospace;
+    top: 35vh;
+    display: flex;
+    flex-direction: nowrap column;
+    padding: 0 20px;
+}
+
+#about{ 
+    /* background: #e88e6749; */
+    margin: 10%;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+
+.nav ul {
+    list-style: none;
+}
+
+.nav li {
+    margin: 10px 0;
+    padding: 10px 0;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #333333;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: color 0.3s ease-in-out;
+    mix-blend-mode:multiply;
+}
+
+.nav a:hover {
+    color: #007bff;
+    font-size: 2rem;
+    transition: 0.2s ease-in-out;
+    font-family: "Rubik Glitch"
+}
+
+
+/* Sections */
+.section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    text-align: center;
+    padding: 10px 40px;
+    line-height: 2rem;
+}
+
+.flex{
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-around;
+}
+
+.flex_column{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.icon{
+    width: 40px;
+    height: 40px;
+}
+
+figure{
+    margin: 15px;
+    padding: 15px;
+    
+}
+
+.contrast1{
+    background-color:#E88D67;
+    width: 100%;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.social-links{
+    position: relative;
+    top: 10rem;
+}
+
+
