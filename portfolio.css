@@ -80,7 +80,7 @@ main{
     top: 35vh;
     display: flex;
     flex-direction: nowrap column;
-    padding: 0 20px;
+    padding: 0 calc(5px + 1vw);
 }
 
 #about{ 
